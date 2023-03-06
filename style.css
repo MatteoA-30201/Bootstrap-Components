@@ -1,0 +1,188 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.accordion-button {
+  background-color: #243538;
+  color: #c2ffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #c7ffff;
+  background-color: teal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: cyan;
+    outline: 0;
+    box-shadow: cyan;
+}
+
+.accordion-body {
+  background-color: #ebffff;
+  font-family: 'Open Sans', sans-serif;
+  color: #0a4242;
+}
+
+#liveAlertBtn {
+  font-family: 'Montserrat', sans-serif;
+  background-color: teal;
+  color: #c2ffff;
+  margin-bottom: 150px;
+}
+
+.link-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.mail-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 80px;
+  padding-bottom: 50px;
+  width: 170px;
+  margin-left: 44%;
+  margin-right: 44%;
+}
+
+.mail-row > button {
+  padding-top: 13px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  border-color: brown;
+  color: brown;
+}
+
+a[href*="www.frhsd.com"] {
+    width: 200px;
+    margin-right: 10%;
+    text-align: center;
+    color: #f92424;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a[href*="webdesign"] {
+    width: 200px;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#pets-title {
+  font-size: 50px;
+  color: #0d6efd;
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-group 	[for="btncheck1"] {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-group 	[for="btncheck2"] {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-group 	[for="btncheck3"] {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-group 	[for="btnradio1"] {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-group 	[for="btnradio2"] {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-group 	[for="btnradio3"] {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-group 	[for="btnradio4"] {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-group 	[for="btnradio5"] {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-group 	[for="btnradio6"] {
+  text-align: center;
+  
+  font-size: 20px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100px;
+  white-space: no-wrap;
+}
+
+#schools-title {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
+  color: #f92424;
+  font-weight: 500;
+}
+
+#interstellar-card {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  border: black 4px solid;
+}
